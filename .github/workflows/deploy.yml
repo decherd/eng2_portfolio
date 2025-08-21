@@ -1,4 +1,5 @@
-name: Deploy to GitHub Pages
+# .github/workflows/deploy.yml
+name: Build & Publish MkDocs to gh-pages
 on:
   push:
     branches: [ main ]
@@ -6,11 +7,9 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,3 +22,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: site
+          publish_branch: gh-pages
