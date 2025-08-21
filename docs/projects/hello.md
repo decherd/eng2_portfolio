@@ -4,6 +4,7 @@ This is a simple placeholder project page. Add images and videos as you go.
 
 ## Image example
 ![Example image](../assets/images/example.jpg){ width=600 }
+![Example image](https://upload.wikimedia.org/wikipedia/commons/2/28/HelloWorld.svg){ width=600}
 
 ## Video example
 <video controls src="../assets/videos/demo.mp4" width="640"></video>
