@@ -1,4 +1,4 @@
-# Engineering II — Portfolio - Hello
+# Engineering IIs — Portfolio - Hello
 
 Welcome to my Engineering II portfolio. Here you’ll find selected projects, notes, and demos from the course.
 
